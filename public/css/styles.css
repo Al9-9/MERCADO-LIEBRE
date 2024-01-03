@@ -1,0 +1,107 @@
+body{
+font-family:'Roboto', sans-serif;;
+background-color: #EAC926;
+font-size: 12px;
+}
+
+.logo-mercado{
+    width: 120px;
+    height: 50px;
+    margin-left: 10px;
+    padding: 10px;
+   
+}
+
+.search-bar{
+    margin: 15px;
+    margin-top: 0px;
+    width: 10px;
+    height: 35px;
+    
+
+}
+#my-icon{
+    margin-left: 46px;
+    
+
+
+   
+}
+
+.nav-bur{
+    padding-left: 10px;
+    list-style: none;
+    margin-left: -18px;
+    
+}
+.nav-bur.icons{
+ margin: 2px;
+   
+    
+}
+.burguer-menu{
+    font-size: 20px;
+    margin-left: 130px;
+    background-color: #1259c3;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px ;
+    width: 18px;
+    color:azure;
+    border-radius: 5px;
+    margin-bottom: 20px;
+   
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+   
+    
+
+}
+
+p.card{
+    margin-left: 60px;
+    margin-top: -13px;
+   
+   
+    
+    
+
+}
+
+.home-banner{
+    width: 330px;
+    margin: 1px;
+    
+
+}
+
+.coffe{
+    width:330px
+}
+
+.macbook{
+    width:330px
+}
+
+.phone{
+    width:330px
+}
+
+.tv-samsung{
+    width: 330px;
+}
+footer i{
+    font-size: 30px;
+    color: #1259c3;
+    margin-left: 130px;
+}
+footer h3{
+    margin-left: 60px;
+}
+footer p{
+    margin-left: 30px;
+    
+}
