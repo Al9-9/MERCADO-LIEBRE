@@ -82,6 +82,19 @@ p.card{
     padding: 0;
     margin:0;
 }
+main h4 {
+    font-size: 24px;
+    
+}
+.price{
+    font-size: 18px;
+}
+.off{
+    font-size: 16px;
+}
+.info{
+    font-size: 16px;
+}
 .coffe{
     width:220px
 }
