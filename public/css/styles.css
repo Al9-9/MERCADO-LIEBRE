@@ -77,31 +77,59 @@ p.card{
     
 
 }
-
+.main-sections{
+    background-color: #ebebeb;
+    padding: 0;
+    margin:0;
+}
 .coffe{
-    width:330px
+    width:220px
 }
 
 .macbook{
-    width:330px
+    width:220px
 }
 
 .phone{
-    width:330px
+    width:220px
 }
 
 .tv-samsung{
-    width: 330px;
+    width: 220px;
+    
 }
+
+footer{
+    background-color: #ebebeb;
+    padding: 10px;
+    margin: -10px;
+    
+
+}
+
 footer i{
-    font-size: 30px;
+    font-size: 2em;
     color: #1259c3;
-    margin-left: 130px;
+    margin-bottom: 10px;
+    margin-left: 140px;
+    
 }
 footer h3{
-    margin-left: 60px;
+    color: #666;
+    margin-left: 65px;
+   
+    
+    
 }
 footer p{
-    margin-left: 30px;
+    color: #666;
+    text-align: center;
     
+}
+.last{
+font-size: smaller;
+margin: 30px;
+margin-left: 1px;
+margin-bottom: 20px;
+margin-top: -1px;
 }
