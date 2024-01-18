@@ -1,0 +1,55 @@
+footer{
+    background-color: #ebebeb;
+    padding: 10px;
+    margin: -10px;
+}
+
+footer i{
+    font-size: 2em;
+    color: #1259c3;
+    margin-bottom: 10px;
+  
+    
+}
+
+i.fa-solid.fa-user-shield {
+    margin-left: 45%;
+}
+
+i.fa-solid.fa-gift {
+    margin-left: 45%;
+}
+
+i.fa-solid.fa-credit-card {
+    margin-left: 45%;
+}
+
+footer h3{
+    color: #666;
+    margin-left: 45px;
+}
+footer h3.last{
+    
+font-size: smaller;
+    
+font-weight: lighter;
+    
+margin: 10px;
+    
+margin-top: 15%;
+    
+margin-bottom: 2%;
+}
+
+footer p{
+    color: #666;
+    text-align: center;
+}
+
+footer h3 .last{
+font-size: smaller;
+margin: 30px;
+margin-left: 1px;
+margin-bottom: 20px;
+margin-top: -1px;
+}
