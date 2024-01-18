@@ -4,11 +4,10 @@ header {
     font-size: 12px;
 }
 
-ul.nav-bur {margin-left: -9;}
+header ul.nav-bur {
+    
+    }
 
-ul.nav-bur {
-    margin-left: -9px;
-}
 
 header img.home-banner {
     margin-top: 10px;
