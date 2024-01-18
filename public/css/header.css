@@ -1,0 +1,90 @@
+header {
+    font-family:'Roboto', sans-serif;
+    background-color: #EAC926;
+    font-size: 12px;
+}
+
+ul.nav-bur {margin-left: -9;}
+
+ul.nav-bur {
+    margin-left: -9px;
+}
+
+header img.home-banner {
+    margin-top: 10px;
+    width: 100%;
+}
+
+header img.logo-mercado{  
+    width: 120px;
+    height: 50px;
+    margin-left: 10px;
+    padding: 10px;}
+
+header div.search-bar{ 
+    margin: 15px;
+    margin-top: 0px;
+    width: 10px;
+    height: 35px;
+    }
+
+header i.fa-solid.fa-magnifying-glass{
+    
+}
+
+header div input {}
+
+header a{color: black;}
+
+header i.fas.fa-hand-holding-usd{
+    margin-left: 46px;
+}
+header i.i.fa-solid.fa-magnifying-glass{
+    
+}
+header p.card{
+    margin-left: 60px;
+    margin-top: -13px;
+   }
+
+header nav ul.nav-bur{
+    padding-left: 10px;
+    list-style: none;
+    
+    
+}
+
+header nav ul li{}
+
+header nav ul li a{
+    text-decoration: none;
+}
+
+header nav.login-bar{}
+
+header nav.login-bar ul.nav-bur{}
+
+header nav.login-bar ul.nav-bur li{}
+
+header nav.login-bar ul.nav-bur li a{}
+
+header div.burguer-menu{ 
+
+}
+   
+
+header div.burguer-menu a{}
+
+header div.burguer-menu a i.fa-solid.fa-bars{
+    color: white;
+    margin-left: 45%;
+    padding: 10px;
+    background-color: #2222f9;
+    border-radius: 5px;
+}
+
+header img.home-banner{
+    margin-top: 10px;
+    width: 100%;
+}
+
