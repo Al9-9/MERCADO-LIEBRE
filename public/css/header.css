@@ -5,7 +5,7 @@ header {
 }
 
 header ul.nav-bur {
-    
+
     }
 
 
@@ -28,7 +28,12 @@ header div.search-bar{
     }
 
 header i.fa-solid.fa-magnifying-glass{
-    
+    background-color: white;
+    padding: 2px;
+    border-radius: 2px;
+    border-width: 1px ;
+    border-style: solid;
+
 }
 
 header div input {}
@@ -37,9 +42,6 @@ header a{color: black;}
 
 header i.fas.fa-hand-holding-usd{
     margin-left: 46px;
-}
-header i.i.fa-solid.fa-magnifying-glass{
-    
 }
 header p.card{
     margin-left: 60px;
