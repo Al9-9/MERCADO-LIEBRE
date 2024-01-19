@@ -3,8 +3,6 @@ body{
    
 }
 
-body {}
-
 main.main-sections{
     background-color: #ebebeb;
     padding: 0;
@@ -37,3 +35,4 @@ main section div p.off{
 }
 
 main section.main-section-off{}
+ 
