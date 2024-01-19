@@ -1,5 +1,5 @@
 footer{
-    background-color: #ebebeb;
+    background-color: var(--gris-claro);
     padding: 10px;
     margin: -10px;
 }
@@ -25,19 +25,24 @@ i.fa-solid.fa-credit-card {
 }
 
 footer h3{
-    color: #666;
+    color: var(--gris-oscuro);
     margin-left: 45px;
 }
 footer h3.last{
-    font-size: smaller;
-    font-weight: lighter;
-    margin: 10px;
-    margin-top: 15%;
-    margin-bottom: 2%;
+    
+font-size: smaller;
+    
+font-weight: lighter;
+    
+margin: 10px;
+    
+margin-top: 15%;
+    
+margin-bottom: 2%;
 }
 
 footer p{
-    color: #666;
+    color: var(--gris-oscuro);
     text-align: center;
 }
 

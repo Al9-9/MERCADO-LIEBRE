@@ -1,11 +1,11 @@
 header {
     font-family:'Roboto', sans-serif;
-    background-color: #EAC926;
+    background-color: var(--color-amarillo);
     font-size: 12px;
 }
 
 header ul.nav-bur {
-
+    
     }
 
 
@@ -28,17 +28,19 @@ header div.search-bar{
     }
 
 header i.fa-solid.fa-magnifying-glass{
-    background-color: white;
-    padding: 2px;
-    border-radius: 2px;
-    border-width: 1px ;
-    border-style: solid;
-
-}
+        background-color: var(--color-blanco);
+        padding: 2px;
+        border-radius: 2px;
+        border-width: 1px ;
+        border-style: solid;
+    
+    }
 
 header div input {}
 
-header a{color: black;}
+header a{
+    color: var(--gris-oscuro);
+}
 
 header i.fas.fa-hand-holding-usd{
     margin-left: 46px;
@@ -77,7 +79,7 @@ header div.burguer-menu{
 header div.burguer-menu a{}
 
 header div.burguer-menu a i.fa-solid.fa-bars{
-    color: white;
+    color: var(--color-blanco);
     margin-left: 45%;
     padding: 10px;
     background-color: #2222f9;
@@ -89,3 +91,7 @@ header img.home-banner{
     width: 100%;
 }
 
+/* @media (min-width: 361px) {}
+
+
+@media (min-width: 769px) {} */
