@@ -4,8 +4,9 @@ header {
     font-size: 12px;
 }
 
-header ul.nav-bur {
+header nav{
     
+/* display: none; */
     }
 
 
@@ -14,54 +15,53 @@ header img.home-banner {
     width: 100%;
 }
 
-header img.logo-mercado{  
+header img.logo-mercado{
     width: 120px;
     height: 50px;
-    margin-left: 10px;
-    padding: 10px;}
+    margin-left: 30px;
+    padding: 10px;
+    }
 
-header div.search-bar{ 
-    margin: 15px;
-    margin-top: 0px;
-    width: 10px;
-    height: 35px;
+header div.search-bar{
+    margin-left: 2em;
+    display: inline-block;
     }
 
 header i.fa-solid.fa-magnifying-glass{
         background-color: var(--color-blanco);
         padding: 2px;
         border-radius: 2px;
-        border-width: 1px ;
+        border-width: 1px;
         border-style: solid;
-    
+        margin-right: 7em;
     }
 
-header div input {}
-
-header a{
-    color: var(--gris-oscuro);
+header div input {
+    display: inline-block;
 }
+
 
 header i.fas.fa-hand-holding-usd{
-    margin-left: 46px;
+
+
+
+margin-left: 4.5em;
 }
 header p.card{
-    margin-left: 60px;
-    margin-top: -13px;
+
+    display: inline-block;
    }
+
+p.card {}
 
 header nav ul.nav-bur{
     padding-left: 10px;
     list-style: none;
-    
-    
 }
+
+ul.nav-bur {padding: 3px;margin-left: -8px;}
 
 header nav ul li{}
-
-header nav ul li a{
-    text-decoration: none;
-}
 
 header nav.login-bar{}
 
@@ -71,8 +71,9 @@ header nav.login-bar ul.nav-bur li{}
 
 header nav.login-bar ul.nav-bur li a{}
 
-header div.burguer-menu{ 
+header div.burguer-menu{
 
+margin-top: 1em;
 }
    
 
@@ -84,6 +85,7 @@ header div.burguer-menu a i.fa-solid.fa-bars{
     padding: 10px;
     background-color: #2222f9;
     border-radius: 5px;
+    font-size: 20px;
 }
 
 header img.home-banner{
@@ -91,7 +93,213 @@ header img.home-banner{
     width: 100%;
 }
 
-/* @media (min-width: 361px) {}
+@media (min-width: 361px) {
+    header {
+        font-family:'Roboto', sans-serif;
+        background-color: var(--color-amarillo);
+        font-size: 12px;
+    }
+    
+    header ul.nav-bur {
+        
+        }
+    
+    
+    header img.home-banner {
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    header img.logo-mercado{
+        width: 120px;
+        height: 50px;
+        margin-left: 10px;
+        padding: 10px;
+        width: 200px;
+        display: block;
+        }
+    
+    header div.search-bar{
+        /* margin: 15px; */
+        margin-top: 0px;
+        /* width: 10px; */
+        height: 35px;
+        display: inline-block;
+        margin-left: em;
+        }
+    
+    header i.fa-solid.fa-magnifying-glass{
+            background-color: var(--color-blanco);
+            padding: 2px;
+            border-radius: 2px;
+            border-width: 1px;
+            border-style: solid;
+            display: inline-block;
+            margin-right: 40em;
+        }
+    
+    header div input {
+    display: inline-block;
+}
+    
+    
+    header i.fas.fa-hand-holding-usd{
+        margin-left: 23em;
+        /* margin-right: 13em; */
+    }
+    header p.card{
+        /* margin-left: 13em; */
+        margin-top: -2px;
+        display: inline-block;
+       }
+    
+    header nav ul.nav-bur{
+        padding-left: 10px;
+        list-style: none;
+    }
+    
+    ul.nav-bur {padding: 3px;margin-left: -8px;}
+    
+    header nav ul li{}
+    
+    header nav ul li a{
+        text-decoration: none;
+        /* list-style: none; */
+    }
+    
+    header nav.login-bar{}
+    
+    header nav.login-bar ul.nav-bur{}
+    
+    header nav.login-bar ul.nav-bur li{}
+    
+    header nav.login-bar ul.nav-bur li a{}
+    
+    header div.burguer-menu{
+    
+display: none;
+    }
+       
+    
+    header div.burguer-menu a{}
+    
+    header div.burguer-menu a i.fa-solid.fa-bars{
+        color: var(--color-blanco);
+        margin-left: 45%;
+        padding: 10px;
+        background-color: #2222f9;
+        border-radius: 5px;
+    }
+    
+    header img.home-banner{
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+}
 
 
-@media (min-width: 769px) {} */
+@media (min-width: 769px) {
+    header {
+        font-family:'Roboto', sans-serif;
+        background-color: var(--color-amarillo);
+        font-size: 12px;
+    }
+    
+    header ul.nav-bur {
+        
+        }
+    
+    
+    header img.home-banner {
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    header img.logo-mercado{
+        width: 120px;
+        height: 50px;
+        margin-left: 10px;
+        padding: 10px;
+        width: 200px;
+        display: block;
+        }
+    
+    header div.search-bar{
+        /* margin: 15px; */
+        margin-top: 0px;
+        /* width: 10px; */
+        height: 35px;
+        display: inline-block;
+        margin-left: em;
+        }
+    
+    header i.fa-solid.fa-magnifying-glass{
+            background-color: var(--color-blanco);
+            padding: 2px;
+            border-radius: 2px;
+            border-width: 1px;
+            border-style: solid;
+            display: inline-block;
+            margin-right: 40em;
+        }
+    
+    header div input {
+    display: inline-block;
+}
+    
+    
+    header i.fas.fa-hand-holding-usd{
+        margin-left: 26em;
+        /* margin-right: 3em; */
+    }
+    header p.card{
+        /* margin-left: 13em; */
+        /* margin-top: -2px; */
+        display: inline-block;
+       }
+    
+    header nav ul.nav-bur{
+        padding-left: 10px;
+        list-style: none;
+    }
+    
+    ul.nav-bur {padding: 3px;margin-left: -8px;}
+    
+    header nav ul li{}
+    
+    header nav ul li a{
+        text-decoration: none;
+        /* list-style: none; */
+    }
+    
+    header nav.login-bar{}
+    
+    header nav.login-bar ul.nav-bur{}
+    
+    header nav.login-bar ul.nav-bur li{}
+    
+    header nav.login-bar ul.nav-bur li a{}
+    
+    header div.burguer-menu{
+    
+display: none;
+    }
+       
+    
+    header div.burguer-menu a{}
+    
+    header div.burguer-menu a i.fa-solid.fa-bars{
+        color: var(--color-blanco);
+        margin-left: 45%;
+        padding: 10px;
+        background-color: #2222f9;
+        border-radius: 5px;
+    }
+    
+    header img.home-banner{
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+}

@@ -1,3 +1,24 @@
 a{
-    color: black;
+    color: black;  
+}
+
+header nav ul li a{
+    list-style: none;
+}
+
+@media (min-width: 361px) {
+    header nav ul li{
+        list-style:none;
+        
+    }
+    
+}
+
+
+@media (min-width: 769px) {
+    header nav ul li{
+        list-style:none;
+        
+    }
+    
 }

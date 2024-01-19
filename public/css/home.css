@@ -3,41 +3,220 @@ body{
    
 }
 
-main.main-sections{
+main.main-section{
     background-color: var(--color-gris);
-    padding: 0;
     margin: auto;
     width: 90%;
 }
 
 main section.main-div{
-  
     margin: 10px;
 }
 
 main section h4{
     font-size: 24px;
+    color: var(--gris-oscuro);
 }
 
-main section div{background-color: var(--color-blanco);}
+main section div{
+    background-color: var(--color-blanco);
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+}
+
+div {
+   
+}
+
+main section .article-box {
+    border-top: 1px;
+    border-style: solid;
+    border-color: var(--color-gris);
+  
+}
 
 main section div img{
-    width: 260px;
-
+    width: 268px;
 }
 
-main section div p{
-}
+main section div p{margin: 15px;color: var(--gris-oscuro);}
 
+
+main section div i.fa-solid.fa-truck{
+color: var(--verde);
+border-radius: 50%;
+border: 1px solid;
+height: 35px;
+width: 35px;
+display: flex;
+flex-direction: column-reverse;
+margin: 15px 15px;
+line-height: 3;
+padding: 4.9px;
+font-size: 17px;
+}
 main section div p.price{
     font-size: 18px;
-   
+    margin: 15px;
+    margin-top: -15px;
 }
 
 main section div p.off{
     font-size: 16px;
-    
+    color: var(--verde);
+    margin: 15px;
+    margin-top: -15px;
 }
 
 main section.main-section-off{}
  
+
+
+@media (min-width: 361px) {
+    body{
+        margin: 0;
+       
+    }
+    
+    main.main-section{
+        background-color: var(--color-gris);
+        margin: auto;
+        width: 90%;
+    }
+    
+    main section.main-div{
+        margin: 10px;
+        
+    }
+    
+    main section h4{
+        font-size: 24px;
+        color: var(--gris-oscuro);
+    }
+    
+    main section div{
+        background-color: var(--color-blanco);
+        box-shadow: 0px 0px 10px rgb(100,100,100);}
+    
+    div {
+       
+    }
+    
+    main section .article-box {
+        border-top: 1px;
+        border-style: solid;
+        border-color: var(--color-gris);
+      
+    }
+    
+    main section div img{
+        width: 90%;
+    }
+    
+    main section div p{margin: 15px;color: var(--gris-oscuro);}
+    
+    main section div i.fa-solid.fa-truck{
+    color: var(--verde);
+    border-radius: 50%;
+    border: 1px solid;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 15px 15px;
+    line-height: 3;
+    padding: 4.9px;
+    font-size: 17px;
+    }
+    main section div p.price{
+        font-size: 18px;
+        margin: 15px;
+        margin-top: -15px;
+    }
+    
+    main section div p.off{
+        font-size: 16px;
+        color: var(--verde);
+        margin: 15px;
+        margin-top: -15px;
+    }
+    
+    main section div p.info{
+    display: none;
+     
+    
+}
+}
+
+
+@media (min-width: 769px) {
+    body{
+        margin: 0;
+       
+    }
+    
+    main.main-section{
+        background-color: var(--color-gris);
+        margin: auto;
+        width: 90%;
+    }
+    
+    main section.main-div{
+        margin: 10px;
+    }
+    
+    main section h4{
+        font-size: 24px;
+        color: var(--gris-oscuro);
+    }
+    
+    main section div{
+        background-color: var(--color-blanco);
+        box-shadow: 0px 0px 10px rgb(100,100,100);}
+    
+    div {
+       
+    }
+    
+    main section .article-box {
+        border-top: 1px;
+        border-style: solid;
+        border-color: var(--color-gris);
+      
+    }
+    
+    main section div img{
+        width: 90%;
+    }
+    
+    main section div p{margin: 15px;color: var(--gris-oscuro);}
+    
+    
+    main section div i.fa-solid.fa-truck{
+    color: var(--verde);
+    border-radius: 50%;
+    border: 1px solid;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 15px 15px;
+    line-height: 3;
+    padding: 4.9px;
+    font-size: 17px;
+    }
+    main section div p.price{
+        font-size: 18px;
+        margin: 15px;
+        margin-top: -15px;
+    }
+    
+    main section div p.off{
+        font-size: 16px;
+        color: var(--verde);
+        margin: 15px;
+        margin-top: -15px;
+    }
+    
+    main section.main-section-off{}
+     
+}
