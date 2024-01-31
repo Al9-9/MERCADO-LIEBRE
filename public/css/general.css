@@ -5,6 +5,29 @@ a{
 header nav ul li a{
     list-style: none;
 }
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/* Colores */
+
+:root{
+    --color-amarillo:#EAC926;
+    --color-azul:#03264C;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a;
+    --color-gris: #ebebeb;
+    --color-blanco: #ffffff
+}
+/* Fuente */
+
+:root {
+    --Roboto: 'Roboto', 'sans-serif'
+}
 
 @media (min-width: 361px) {
     header nav ul li{
@@ -22,3 +45,4 @@ header nav ul li a{
     }
     
 }
+

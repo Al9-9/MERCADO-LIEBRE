@@ -26,8 +26,8 @@ i.fa-solid.fa-credit-card {
 
 footer h3{
     color: var(--gris-oscuro);
-    margin-left: 45px;
-    /* text-align: center; */
+    /* margin-left: 45px; */
+    text-align: center;
 }
 
 h3 {}

@@ -1,33 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 @import './general.css';
 @import './header.css';
 @import './home.css';
 @import './footer.css';
-
-:root{
-    --color-amarillo:#EAC926;
-}
-:root{
-    --color-azul:#03264C;
-}
-:root{
-    --celeste: #1259c3;
-}
-:root{
-    --gris-oscuro: #666;
-}
-:root{
-    --gris-claro: #ebebeb;
-}
-:root{
-    --verde: #39b54a;
-}
-
-:root {
-    --color-gris: #ebebeb;
-}
-:root {
-    --color-blanco: #ffffff
-}
+@import './register.css';
+@import './login.css';
 
 
 
