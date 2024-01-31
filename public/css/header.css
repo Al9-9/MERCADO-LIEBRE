@@ -111,12 +111,11 @@ header div.burguer-menu a i.fa-solid.fa-bars{
     color: var(--color-blanco);
     margin-left: 40%;
     padding: 8px;
-    background-color: #2222f9;
+    background-color: #0556ad;
     border-radius: 3px;
     font-size: 19px;
     padding-top: 6px;
     padding-bottom: 8px;
-    
 }
 
  header div.contenedor-banner{

@@ -1,0 +1,36 @@
+main{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    justify-content: center;
+}
+
+main div.login{}
+
+main div input{
+    width: 285px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+main div.first-div{
+    /* width: 127px; */
+    margin-bottom: 40px;
+}
+
+main div.second-div{}
+
+main div.third-div{
+}
+main div.third-div button{
+    width: 285px;
+    height: 50px;
+    border: none;
+    /* color: navajowhite; */
+    background-color: #0556AE;
+    color: white;
+    margin-top: 40px;
+    border-radius: 4px;
+}

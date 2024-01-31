@@ -1,0 +1,94 @@
+main{
+    /* margin: 49px; */
+    text-align: center;
+    /* width: 50vw; */
+    height: 45vh;
+    margin-top: 40px;
+    /* font-family: var(--Roboto); */
+    /* padding: 10px; */
+    position: relative;
+}
+
+main form.formulario{}
+
+main form div input.register{
+    width: 245px;
+    border-radius: 4px;
+    margin: 15px;
+    border-radius: 4px;
+    border: none;
+    height: 30px;
+    font-size: 12px;
+    padding: 10px;
+}
+main form div label{
+    /* margin-left: 10px; */
+}
+
+main form div.registro{/* margin: 10px; */}
+
+main form h5.date-birth{
+    position: absolute;
+    left: 39px;
+    top: 181px;
+    /* padding: 44px; */
+    /* margin: 32px; */
+}
+main form div.registro #email{
+    margin-bottom: 35px;
+    /* margin-top: 45px; */
+}
+
+main form div.date #domicilio{}
+
+main form h5.account{
+    position: absolute;
+    left: 39px;
+    top: 310px;
+}
+
+main form div.perfil #comprador{}
+
+main form div.date{}
+
+main form div.perfil{
+    padding: 15px;
+}
+main form h5.list{
+    
+position: absolute;
+    
+left: 39px;
+    
+/* margin-bottom: 41px; */
+}
+main form div.list-check{position: absolute;left: 30px;top: 376px;/* display: flex; */flex-wrap: wrap;flex-direction: column;align-content: stretch;font-size: 12px;/* text-align: center; */}
+
+main form div #electro{margin-bottom: 16px;}
+
+main form div #moda{
+    margin-bottom: 16px;
+}
+main form div #hogar{
+    margin-bottom: 16px;
+}
+main form div #juguetes{
+    margin-bottom: 16px;margin-left: 9px;
+}
+main form div #salud{
+    margin-bottom: 16px;/* margin-right: 10px; */
+}
+main form div.categorías{
+    margin-top: 20px;
+    /* text-align: center; */
+    /* padding: 10px; */
+}
+main form div.list-check.categorías{}
+
+main form div.list-check.moda-list{}
+
+main form div.list-check.home-list{}
+
+main form div.list-check.toys-list{}
+
+main form div.list-check.salud-list{}
