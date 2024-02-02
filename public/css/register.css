@@ -1,3 +1,4 @@
+@media(max-width:360px){
 main{
     /* margin: 49px; */
     text-align: center;
@@ -92,3 +93,4 @@ main form div.list-check.home-list{}
 main form div.list-check.toys-list{}
 
 main form div.list-check.salud-list{}
+}

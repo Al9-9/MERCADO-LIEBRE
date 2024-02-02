@@ -1,4 +1,6 @@
-main{
+@media(max-width: 360px)
+{
+    main{
     display: flex;
     /* flex-wrap: wrap; */
     /* flex-direction: row; */
@@ -33,4 +35,5 @@ main div.third-div button{
     color: white;
     margin-top: 40px;
     border-radius: 4px;
+}
 }

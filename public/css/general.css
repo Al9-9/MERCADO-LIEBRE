@@ -29,6 +29,16 @@ header nav ul li a{
     --Roboto: 'Roboto', 'sans-serif'
 }
 
+
+@media (max-width: 360px) {
+    header nav ul li{
+        list-style:none;
+        
+    }
+    
+}
+
+
 @media (min-width: 361px) {
     header nav ul li{
         list-style:none;
