@@ -1,4 +1,5 @@
-header {
+@media (max-width:360px){
+    header {
     font-family:'Roboto', sans-serif;
     background-color: var(--color-amarillo);
     font-size: 12px;
@@ -54,9 +55,10 @@ header p.card{
 
 p.card {}
 
-header nav ul.nav-bur{
+header nav ul.nav-bar{
     padding-left: 10px;
     list-style: none;
+    display: none;
 }
 
 ul.nav-bur {padding: 3px;margin-left: -8px;}
@@ -91,7 +93,7 @@ header div.burguer-menu a i.fa-solid.fa-bars{
 header img.home-banner{
     margin-top: 10px;
     width: 100%;
-}
+}}
 
 @media (min-width: 361px) {
     header {
