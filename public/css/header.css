@@ -1,13 +1,11 @@
-/* Celular */
-@media (max-width: 360px) {
-    
-}
-header {
+@media (max-width:360px){
+    header {
     font-family:'Roboto', sans-serif;
     background-color: var(--color-amarillo);
     font-size: 8px;
     /* width: 90%; */
 }
+header div.contenedor-nav-bar{}
 
 header nav{
 
@@ -41,53 +39,35 @@ header div.search-bar{
 
 header i.fa-solid.fa-magnifying-glass{
         background-color: var(--color-blanco);
-        padding: 1.5px;
-        border-radius: 3px;
-        color: var(--gris-oscuro);
-        /* margin-left: 0px; */
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        font-size: 13px;
-        /* padding-left: 1px; */
-        /* width: 12px; */
+        padding: 2px;
+        border-radius: 2px;
+        border-width: 1px;
+        border-style: solid;
+        /* margin-right: 7em; */
+        display: inline-block;
     }
 
 header div input {
-    width: 121px;
-    align-items: flex-end;
-    /* position: absolute; */
-    border: none;
-    padding: 10px;
-    border-radius: 4px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    font-size: 10.7px;
-    /* display: flex; */
-    /* flex-direction: row; */
-    height: 27px;
-    padding-right: -4px;
-    /* margin-right: 5px; */
-    padding-top: 12px;
-}
-
-
-header i.fas.fa-hand-holding-usd{margin-left: 27px;font-size: 6px;}
-
-header p.card{
     display: inline-block;
-    font-size: 6px;
-    }
-
-header div.contenedor-nav-bar{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    width: 148px;
 }
-header nav ul.nav-bur{
+
+
+header i.fas.fa-hand-holding-usd{
+
+margin-left: 34px;
+}
+header p.card{
+
+    display: inline-block;
+   }
+
+p.card {}
+
+header nav ul.nav-bar{
     padding-left: 10px;
     list-style: none;
+    display: none;
 }
 
 header ul.nav-bar {
@@ -123,30 +103,27 @@ header div.burguer-menu a{}
 
 header div.burguer-menu a i.fa-solid.fa-bars{
     color: var(--color-blanco);
-    margin-left: 57px;
-    padding: 6px;
-    background-color: #0556ad;
-    border-radius: 3px;
-    font-size: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
+    margin-left: 40%;
+    padding: 8px;
+    background-color: #2222f9;
+    border-radius: 5px;
+    font-size: 20px;
 }
 
- header div.contenedor-banner{
+header img.home-banner{
+    margin-top: 10px;
+    width: 100%;
+}}
 
-height: 6vh;
-} 
-header div img.home-banner{width: 190px;}
-
-
-/* Tablet */
 @media (min-width: 361px) {
     header {
         font-family:'Roboto', sans-serif;
         background-color: var(--color-amarillo);
         font-size: 16px;
     }
+    header div.contenedor-nav-bar{
+    display: flex;
+}
     header nav{
 
     }
@@ -157,17 +134,21 @@ header div img.home-banner{width: 190px;}
     
     header img.home-banner {
         margin-top: 10px;
-        /* width: 461px; */
+        width: 100%;
         /* height: 74px; */
     }
     
     header img.logo-mercado{
         margin-left: 29px;
-        width: 150px;
+        width: 160px;
+        margin-top: 10px;
         }
     
     header div.search-bar{
         width: 50%;
+        position: absolute;
+        top: 23px;
+        right: 197px;
         }
     
     header i.fa-solid.fa-magnifying-glass{
@@ -178,28 +159,19 @@ header div img.home-banner{width: 190px;}
             border-style: solid;
             display: inline-block;
             /* margin-left: 209px; */
-            padding-top: 1px;
-            font-size: 7px;
-            /* padding-bottom: 0px; */
-            padding-left: 0px;
-            height: 11px;
-            position: relative;
-            top: -6px;
-            left: 3px;
+            padding-top: 2px;
+            font-size: 14px;
+            padding-bottom: 3px;
+            /* position: relative; */
+            /* top: -21px; */
+            /* right: -210px; */
         }
     
     header div input {
     display: inline-block;
-    padding: 3px;
-    width: 92px;
-    margin-left: 70px;
-    font-size: 7px;
-    /* padding-top: 0px; */
-    /* padding-bottom: 0px; */
-    height: 11px;
-    border-radius: 2px;
-    border-bottom: solid 1px var(--gris-oscuro);
-    border-right: 1px solid var(--gris-oscuro);
+    margin-left: 10px;
+    /* position: absolute; */
+    /* top: 20px; */
 }
     
     
@@ -209,15 +181,14 @@ header div img.home-banner{width: 190px;}
         flex-direction: row-reverse;
         justify-content: space-evenly;
         position: absolute;
-        /* top: 0px; */
-        /* right: 232px; */
-        /* font-size: 8px; */
+        top: 28px;
+        right: 305px;
     }
     header p.card{
         display: inline-block;
         position: absolute;
-        /* top: 46px; */
-        /* right: 50px; */
+        top: 22px;
+        right: 50px;
         font-size: 8px;
        }
     
@@ -227,6 +198,8 @@ header div img.home-banner{width: 190px;}
         right: 2px;
         padding-left: 16px;
         justify-content: flex-end;
+        /* text-decoration: none; */
+        /* flex-wrap: wrap; */
     }
     
     ul.nav-bur {padding: 3px;margin-left: -8px;}
@@ -234,6 +207,7 @@ header div img.home-banner{width: 190px;}
     header nav ul li{
     padding-right: 13px;
     font-size: 12px;
+    /* text-decoration: none; */
 }
     
     header nav ul li a{
@@ -246,6 +220,7 @@ header div img.home-banner{width: 190px;}
     justify-content: space-between;
     width: 50%;
     align-content: flex-end;
+    margin-left: 46px;
 }
 header nav.login-bar i.fa-regular.fa-address-card{
     font-size: 15px;
@@ -291,8 +266,16 @@ display: none;
     header {
         font-family:'Roboto', sans-serif;
         background-color: var(--color-amarillo);
-        font-size: 12px;
+        /* font-size: 55px; */
+        width: max-content;
+        /* box-sizing: border-box; */
+        /* display: flex; */
+        /* background-size: cover; */
+        /* background-attachment: fixed; */
     }
+    header div.contenedor-nav-bar{
+    height: 186px;
+}
     
     header ul.nav-bur {
         
@@ -305,66 +288,67 @@ display: none;
     }
     
     header img.logo-mercado{
-        display: block;
-        height: 19em;
-        width: 90%;
-        /* margin: 0; */
-        margin-left: 115px;
-        margin-top: 120px;
+        height: 500px;
+        /* margin-left: 10px; */
+        /* padding: 10px; */
+        /* display: block; */
+        width: 25%;
         }
     
     header div.search-bar{
         margin-top: 0px;
-        width: 60em;
-        height: -5px;
+        width: 50%;
+        height: 35px;
         display: inline-block;
-        display: flex;
+        margin-left: em;
         position: absolute;
-        left: 80em;
-        top: 210px;
+        top: 246px;
+        right: -588px;
         }
     
     header i.fa-solid.fa-magnifying-glass{
             background-color: var(--color-blanco);
-            padding: 7px;
+            /* padding: 2px; */
             border-radius: 2px;
             border-width: 1px;
             border-style: solid;
             display: inline-block;
-            font-size: 48px;
-            padding-top: 5px;
-            border-color: black;
-            margin-left: 733px;
+            /* margin-right: 40em; */
+            width: 58px;
+            height: 61px;
+            font-size: 54px;
+            position: relative;
+            top: -13px;
+            right: -448px;
         }
     
     header div input {
     display: inline-block;
-    width: 12.5em;
-    height: 63px;
-    font-size: 4em;
-    padding-top: 10px;
-    border: solid 2px;
-    border-bottom: 3px black;
-    border-bottom: solid 3px;
+    width: 681px;
+    height: 68px;
+    position: absolute;
+    top: -18px;
+    left: -283px;
+    font-size: 54px;
 }
     
     
     header i.fas.fa-hand-holding-usd{
         margin-left: 9em;
-        font-size: 4em;
+        font-size: 41px;
         /* margin-bottom: -46px; */
         position: relative;
         /* right: 332px; */
         /* bottom: 148px; */
-        left: 30em;
-        top: -125px;
+        top: -271px;
+        right: -1200px;
     }
     header p.card{
         display: inline-block;
-        font-size: 4em;
+        font-size: 41px;
         position: relative;
-        left: 30em;
-        top: -125px;
+        top: -271px;
+        right: -1200px;
        }
     
     header nav ul.nav-bar{
@@ -383,7 +367,7 @@ display: none;
     
     header nav ul li a{
         text-decoration: none;
-        font-size: 60px;
+        font-size: 50px;
     }
     
     header nav.login-bar{

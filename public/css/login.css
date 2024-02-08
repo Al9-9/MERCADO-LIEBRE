@@ -1,32 +1,35 @@
+/* MOBILE */
 @media(max-width: 360px)
 {
-    main{
-    display: flex;
+    main.form-login{
+    /* display: flex; */
     /* flex-wrap: wrap; */
     /* flex-direction: row; */
     justify-content: center;
+    height: 50vh;
 }
 
-main div.login{}
+main.form-login div.login{}
 
-main div input{
+main.form-login div input{
     width: 285px;
     height: 50px;
     border: none;
     border-radius: 4px;
     padding: 10px;
+    margin-left: 20px;
 }
 
-main div.first-div{
+main.form-login div.first-div{
     /* width: 127px; */
     margin-bottom: 40px;
 }
 
-main div.second-div{}
+main.form-login div.second-div{}
 
-main div.third-div{
+main.form-login div.third-div{
 }
-main div.third-div button{
+main.form-login div.third-div button{
     width: 285px;
     height: 50px;
     border: none;
@@ -35,5 +38,100 @@ main div.third-div button{
     color: white;
     margin-top: 40px;
     border-radius: 4px;
+    margin-left: 20px;
+}
+}
+
+/* TABLET */
+@media(min-width: 361px)
+{
+    main.form-login{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    justify-content: center;
+    height: 50vh;
+    background-color: #ebebeb;
+}
+
+main.form-login div.login{
+    margin-left: 250px;
+    padding-top: 15px;
+}
+
+main.form-login div input{
+    width: 285px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+main.form-login div.first-div{
+    /* width: 127px; */
+    margin-bottom: 40px;
+}
+
+main.form-login div.second-div{}
+
+main.form-login div.third-div{
+}
+main.form-login div.third-div button{
+    width: 285px;
+    height: 50px;
+    border: none;
+    /* color: navajowhite; */
+    background-color: #0556AE;
+    color: white;
+    margin-top: 40px;
+    border-radius: 4px;
+}
+}
+
+/* DESKTOP */
+@media(min-width: 769px)
+{
+    main.form-login{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    justify-content: center;
+    height: 110vh;
+    width: 252vw;
+}
+
+main.form-login div.login{
+    margin-left: 28%;
+    padding-top: 60px;
+}
+
+main.form-login div input{
+    width: 60%;
+    height: 225px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 68px;
+}
+
+main.form-login div.first-div{
+    /* width: 127px; */
+    margin-bottom: 40px;
+}
+
+main.form-login div.second-div{}
+
+main.form-login div.third-div{
+}
+main.form-login div.third-div button{
+    width: 60%;
+    height: 225px;
+    border: none;
+    /* color: navajowhite; */
+    background-color: #0556AE;
+    color: white;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-size: 68px;
 }
 }
