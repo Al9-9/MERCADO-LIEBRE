@@ -1,8 +1,10 @@
-header {
+@media (max-width:360px){
+    header {
     font-family:'Roboto', sans-serif;
     background-color: var(--color-amarillo);
     font-size: 8px;
 }
+header div.contenedor-nav-bar{}
 
 header nav{
 
@@ -37,44 +39,35 @@ header div.search-bar{
 
 header i.fa-solid.fa-magnifying-glass{
         background-color: var(--color-blanco);
-        padding: 3.5px;
-        border-radius: 4px;
-        color: var(--gris-oscuro);
-        margin-left: 138px;
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
-        padding-top: 8px;
-        padding-bottom: 10px;
-        font-size: 11px;
+        padding: 2px;
+        border-radius: 2px;
+        border-width: 1px;
+        border-style: solid;
+        margin-right: 7em;
+        display: inline-block;
     }
 
 header div input {
-    width: 50%;
-    align-items: flex-end;
-    position: absolute;
-    border: none;
-    padding: 8px;
-    border-radius: 4px;
-    border-top-right-radius: 1px;
-    border-bottom-right-radius: 1px;
-    font-size: 11.7px;
+    display: inline-block;
+    width: 180px;
 }
 
 
-header i.fas.fa-hand-holding-usd{margin-left: 58px;font-size: 10px;}
+header i.fas.fa-hand-holding-usd{
 
-header p.card{display: inline-block;
-    font-size: 10px;}
-
-header div.contenedor-nav-bar{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-   
+margin-left: 34px;
 }
-header nav ul.nav-bur{
+header p.card{
+
+    display: inline-block;
+   }
+
+p.card {}
+
+header nav ul.nav-bar{
     padding-left: 10px;
     list-style: none;
+    display: none;
 }
 
 header ul.nav-bar {
@@ -112,19 +105,14 @@ header div.burguer-menu a i.fa-solid.fa-bars{
     margin-left: 40%;
     padding: 8px;
     background-color: #2222f9;
-    border-radius: 3px;
-    font-size: 19px;
-    padding-top: 6px;
-    padding-bottom: 8px;
-    
+    border-radius: 5px;
+    font-size: 20px;
 }
 
- header div.contenedor-banner{
-
-    } 
-header div img.home-banner{width: 100%;}
-
-
+header img.home-banner{
+    margin-top: 10px;
+    width: 100%;
+}}
 
 @media (min-width: 361px) {
     header {
@@ -132,6 +120,9 @@ header div img.home-banner{width: 100%;}
         background-color: var(--color-amarillo);
         font-size: 16px;
     }
+    header div.contenedor-nav-bar{
+    display: flex;
+}
     header nav{
 
     }
@@ -161,17 +152,18 @@ header div img.home-banner{width: 100%;}
             border-width: 1px;
             border-style: solid;
             display: inline-block;
-            margin-left: 209px;
-            padding-top: 3px;
+            /* margin-left: 209px; */
+            padding-top: 2px;
             font-size: 14px;
-            padding-bottom: 0px;
+            padding-bottom: 3px;
+            position: relative;
+            top: -21px;
+            right: -210px;
         }
     
     header div input {
     display: inline-block;
-    padding: 3px;
-    width: 144px;
-    margin-left: 39px;
+    margin-left: 10px;
 }
     
     
@@ -182,7 +174,7 @@ header div img.home-banner{width: 100%;}
         justify-content: space-evenly;
         position: absolute;
         top: 47px;
-        right: 232px;
+        right: 342px;
     }
     header p.card{
         display: inline-block;
@@ -197,6 +189,8 @@ header div img.home-banner{width: 100%;}
         right: 2px;
         padding-left: 16px;
         justify-content: flex-end;
+        /* text-decoration: none; */
+        /* flex-wrap: wrap; */
     }
     
     ul.nav-bur {padding: 3px;margin-left: -8px;}
@@ -204,6 +198,7 @@ header div img.home-banner{width: 100%;}
     header nav ul li{
     padding-right: 13px;
     font-size: 12px;
+    /* text-decoration: none; */
 }
     
     header nav ul li a{
@@ -216,6 +211,7 @@ header div img.home-banner{width: 100%;}
     justify-content: space-between;
     width: 50%;
     align-content: flex-end;
+    margin-left: 46px;
 }
 header nav.login-bar i.fa-regular.fa-address-card{
     font-size: 15px;
@@ -263,8 +259,16 @@ display: none;
     header {
         font-family:'Roboto', sans-serif;
         background-color: var(--color-amarillo);
-        font-size: 12px;
+        /* font-size: 55px; */
+        width: max-content;
+        /* box-sizing: border-box; */
+        /* display: flex; */
+        /* background-size: cover; */
+        /* background-attachment: fixed; */
     }
+    header div.contenedor-nav-bar{
+    height: 186px;
+}
     
     header ul.nav-bur {
         
@@ -277,66 +281,67 @@ display: none;
     }
     
     header img.logo-mercado{
-        display: block;
-        height: 19em;
-        width: 90%;
-        /* margin: 0; */
-        margin-left: 115px;
-        margin-top: 120px;
+        height: 500px;
+        /* margin-left: 10px; */
+        /* padding: 10px; */
+        /* display: block; */
+        width: 25%;
         }
     
     header div.search-bar{
         margin-top: 0px;
-        width: 60em;
-        height: -5px;
+        width: 50%;
+        height: 35px;
         display: inline-block;
-        display: flex;
+        margin-left: em;
         position: absolute;
-        left: 80em;
-        top: 210px;
+        top: 246px;
+        right: -588px;
         }
     
     header i.fa-solid.fa-magnifying-glass{
             background-color: var(--color-blanco);
-            padding: 7px;
+            /* padding: 2px; */
             border-radius: 2px;
             border-width: 1px;
             border-style: solid;
             display: inline-block;
-            font-size: 48px;
-            padding-top: 5px;
-            border-color: black;
-            margin-left: 733px;
+            /* margin-right: 40em; */
+            width: 58px;
+            height: 61px;
+            font-size: 54px;
+            position: relative;
+            top: -13px;
+            right: -448px;
         }
     
     header div input {
     display: inline-block;
-    width: 12.5em;
-    height: 63px;
-    font-size: 4em;
-    padding-top: 10px;
-    border: solid 2px;
-    border-bottom: 3px black;
-    border-bottom: solid 3px;
+    width: 681px;
+    height: 68px;
+    position: absolute;
+    top: -18px;
+    left: -283px;
+    font-size: 54px;
 }
     
     
     header i.fas.fa-hand-holding-usd{
         margin-left: 9em;
-        font-size: 4em;
+        font-size: 41px;
         /* margin-bottom: -46px; */
         position: relative;
         /* right: 332px; */
         /* bottom: 148px; */
-        left: 30em;
-        top: -125px;
+        top: -306px;
+        right: -1378px;
     }
     header p.card{
         display: inline-block;
-        font-size: 4em;
+        font-size: 41px;
         position: relative;
-        left: 30em;
-        top: -125px;
+        top: -303px;
+        right: -1376px;
        }
     
     header nav ul.nav-bar{
@@ -355,7 +360,7 @@ display: none;
     
     header nav ul li a{
         text-decoration: none;
-        font-size: 60px;
+        font-size: 50px;
     }
     
     header nav.login-bar{

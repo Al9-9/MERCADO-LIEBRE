@@ -1,4 +1,7 @@
-footer{
+/* MOBILE  */
+
+@media(max-width:360px){
+    footer{
     background-color: var(--gris-claro);
     padding: 10px;
     margin: -10px;
@@ -8,7 +11,7 @@ footer i{
     font-size: 2em;
     color: #1259c3;
     margin-bottom: 10px;
-  
+    
     
 }
 
@@ -22,7 +25,7 @@ i.fa-solid.fa-gift {
 
 i.fa-solid.fa-credit-card {
     margin-left: 45%;
-}
+} 
 
 footer h3{
     color: var(--gris-oscuro);
@@ -35,7 +38,7 @@ footer h3.last{font-size: smaller;margin: 0;}
 
 footer p{
     color: var(--gris-oscuro);
-    margin-left: 25px;
+    text-align: center;
 }
 /* footer h3 .last{
     font-size: smaller;
@@ -43,7 +46,9 @@ footer p{
     margin-left: 1px;
     margin-bottom: 20px;
     margin-top: -1px;
-    } */
+    /* }} */
+}
+/* TABLET */
 @media (min-width: 361px){
     footer{
         text-align: center;
@@ -62,23 +67,20 @@ footer p{
     
     i.fa-solid.fa-user-shield {
         /* margin-left: 45%; */
-        margin-right: 18em;
     }
     
     i.fa-solid.fa-gift {
         /* margin-left: 45%; */
-        margin-right: 18em;
     }
     
     i.fa-solid.fa-credit-card {
-        /* margin-left: 45%; */
-        margin-right: 18em;
+    /* text-align: center; */
     }
     
     footer h3{
         color: var(--gris-oscuro);
         text-align: center;
-        margin-right: 5em;
+        /* margin-right: 5em; */
     }
     footer h3.last{
         margin-top: 15%;
@@ -87,8 +89,8 @@ footer p{
     
     footer p{
         color: var(--gris-oscuro);
-        /* text-align: center; */
-        margin: 2em;
+        text-align: center;
+        margin-left: 10px;
     }
     
     footer h3 .last{
@@ -102,48 +104,41 @@ footer p{
 
 }
 
-
+/* DESKTOP */
 @media (min-width: 769px){
     footer{
-        text-align: center;
-        background-color: var(--gris-claro);
-        padding: 10px;
-        margin: -10px;
+        /* text-align: center; */
+        /* background-color: var(--gris-claro); */
+        /* padding: 10px; */
+        margin: 0;
+        /* width: 395vw; */
     }
     
     footer i{
-        font-size: 2em;
+        font-size: 115px;
         color: #1259c3;
         margin-bottom: 10px;
-      
-        
     }
     
     i.fa-solid.fa-user-shield {
-        margin-left: 12em;
+        /* margin-left: 45%; */
         /* margin-right: 194em; */
-        font-size: 8em;
     }
     
     i.fa-solid.fa-gift {
-        /* margin-right: 192em; */
-        font-size: 8em;
-        margin-left: 12em;
+        /* margin-right: 194em; */
     }
     
     i.fa-solid.fa-credit-card {
-        margin-left: 12em;
+        /* margin-left: 1%; */
         /* text-align: center; */
         /* margin-right: 194em; */
-        font-size: 8em;
-        margin-top: 200px;
     }
     
     footer h3{
         color: var(--gris-oscuro);
-        text-align: center;
-        margin-right: 1em;
-        font-size: 5em;
+        /* text-align: left; */
+        font-size: 75px;
     }
     footer h3.last{
         margin-top: 15%;
@@ -153,7 +148,7 @@ footer p{
     footer p{
         color: var(--gris-oscuro);
         text-align: center;
-        font-size: 4em;
+        font-size: 70px;
     }
     
     footer h3 .last{

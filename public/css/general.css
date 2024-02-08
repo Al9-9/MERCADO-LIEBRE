@@ -6,7 +6,7 @@ header nav ul li a{
     list-style: none;
 }
 *{
-    margin: 0px;
+    /* margin: 0px; */
     padding:0px;
     box-sizing: border-box;
 }
@@ -21,28 +21,29 @@ header nav ul li a{
     --gris-claro: #ebebeb;
     --verde: #39b54a;
     --color-gris: #ebebeb;
-    --color-blanco: #ffffff
-}
+    --color-blanco: #ffffff;
 /* Fuente */
-
-:root {
     --Roboto: 'Roboto', 'sans-serif'
 }
-
+@media (max-width:360px){
+    header nav ul li{
+        list-style:none;
+        
+    }
+}
 @media (min-width: 361px) {
     header nav ul li{
         list-style:none;
         
     }
-    
 }
 
 
 @media (min-width: 769px) {
+    
     header nav ul li{
         list-style:none;
         
     }
-    
 }
 
