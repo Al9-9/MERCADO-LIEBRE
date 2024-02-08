@@ -64,8 +64,8 @@ main section div{
     /* padding: 16px; */
     align-items: center;
     flex-wrap: nowrap;
-    /* width: 55vw; */
-    /* height: 210vh; */
+    width: 100%;
+    height: 300px;
     margin-bottom: 30px;
 }
 
@@ -88,6 +88,9 @@ main section .article-box {
     border-bottom-color: var(--color-gris);
     flex-direction: row;
     align-items: center;
+}
+main section .article-box:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 main section div img{
@@ -116,7 +119,13 @@ main section div i.fa-solid.fa-truck{
     position: absolute;
     right: 20px;
     top: -15px;
+    /* transform: rotate(-90deg); */
+    
     }
+main section div i.fa-solid.fa-truck:hover{
+  transform: rotate(-90deg);
+
+}
 main section div p.price{
     font-size: 18px;
     margin: 15px;
@@ -138,7 +147,7 @@ main section.main-section-off{}
 @media (min-width: 361px) {
     body{
         margin: 0;
-        width: 200;
+        
     }
     
     main.main-section{
@@ -177,9 +186,10 @@ main section.main-section-off{}
     
     main section div{
         background-color: var(--color-blanco);
-        box-shadow: 0px 0px 10px rgb(100,100,100);
+        /* box-shadow: 0px 0px 10px rgb(100,100,100); */
         width: 400px;
         }
+        
     
     main section div p.info{
        
@@ -192,7 +202,9 @@ display: block;
         border-color: var(--color-gris);
         width: 399px;
     }
-    
+    main section .article-box:hover{
+         box-shadow: 0px 0px 10px rgb(100, 100, 100); 
+    }
     main section div img{
         width: 245px;
         margin-left: 67px;
@@ -217,6 +229,10 @@ display: block;
     /* align-items: center; */
     top: -60px;
     right: -2px;
+    }
+    main section div i.fa-solid.fa-truck:hover{
+        transform: rotate(-90deg);
+        
     }
     main section div p.price{
         font-size: 18px;
@@ -253,7 +269,7 @@ display: block;
     main.main-section{
         background-color: var(--color-gris);
         /* margin: auto; */
-        width: 250%;
+        width: 326vw;
     }
     
     main section.main-div{
@@ -262,7 +278,7 @@ display: block;
     }
     
     main section h4{
-        font-size: 48px;
+        font-size: 103px;
         color: var(--gris-oscuro);
         /* margin-bottom: 34px; */
         align-items: center;
@@ -283,7 +299,7 @@ top: 23em;
     main section div{
         background-color: var(--color-blanco);
         box-shadow: -1px 6px 20px 0px rgb(100,100,100);
-        /* width: 39rem; */
+        width: 1594px;
         /* height: 60rem; */
         /* margin: 4px; */
         padding: -2px;
@@ -300,12 +316,17 @@ top: 23em;
         border-top: -17emx;
         border-style: solid;
         border-color: var(--color-gris);
-        /* width: 197vw; */
+        width: 1593px;
         /* height: 567px; */
+    }
+    main section .article-box:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        /* width: 1595px; */
     }
     
     main section div img{
     width: 1526px;
+    height: 1000px;
     }
     
     main section div p{margin: 15px;color: var(--gris-oscuro);}
@@ -315,27 +336,31 @@ top: 23em;
     color: var(--verde);
     border-radius: 50%;
     border: 1px solid;
-    height: 35px;
-    width: 35px;
+    height: 130px;
+    width: 130px;
     display: flex;
     /* margin: 15px 15px; */
     /* line-height: 3; */
     padding: 4.9px;
-    font-size: 30p;
+    font-size: 66px;
+    }
+    main section div i.fa-solid.fa-truck:hover{
+        transform: rotate(-90deg);
     }
     main section div p.price{
         font-size: 16px;
         margin: 15px;
         margin-top: -15px;
+        font-size: 78px;
     }
     
     main section div p.off{
-        font-size: 16px;
+        font-size: 60px;
         color: var(--verde);
         /* margin: 15px; */
         margin-top: -15px;
     }
-    main section div p.info{font-size: 16px;margin-bottom: 92px;/* padding-bottom: 42px; */}
+    main section div p.info{font-size: 60px;margin-bottom: 92px;/* padding-bottom: 42px; */}
     
     
      
