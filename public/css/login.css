@@ -39,6 +39,10 @@ main.form-login div.third-div button{
     margin-top: 40px;
     border-radius: 4px;
     margin-left: 20px;
+    
+}
+main.form-login div.third-div button:hover{
+   background-color: #0022AA;
 }
 }
 
@@ -86,6 +90,9 @@ main.form-login div.third-div button{
     margin-top: 40px;
     border-radius: 4px;
 }
+main.form-login div.third-div button:hover{
+    background-color: #0022AA;
+ }
 }
 
 /* DESKTOP */
@@ -134,4 +141,7 @@ main.form-login div.third-div button{
     border-radius: 20px;
     font-size: 68px;
 }
+main.form-login div.third-div button:hover{
+    background-color: #0022AA;
+ }
 }
