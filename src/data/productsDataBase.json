@@ -145,8 +145,11 @@
    },
    {
       "id": 17,
-      "price": null,
-      "discount": null,
+      "name": "PC Lenovo",
+      "price": 1000000,
+      "discount": 90,
+      "category": "in-sale",
+      "description": "loplopl",
       "image": "default-image.png"
    }
 ]

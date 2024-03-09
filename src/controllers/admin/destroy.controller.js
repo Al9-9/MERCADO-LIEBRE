@@ -1,7 +1,13 @@
-
+const { readData, saveData } = require('../../data')
 
 
 
 module.exports = (req,res) => {
-    res.render('admin/destroy')
+    const {id} = req.params;
+    const products = readData()
+
+    const  productDelete = products.filter (p => p.id !== +id)
+
+    saveData(productDelete)
+    res.redirect('/')
     }

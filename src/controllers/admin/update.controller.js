@@ -1,7 +1,6 @@
-const { readData } = require("../../data");
+const { readData, saveData } = require("../../data");
 
 
-const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 
 module.exports = (req,res) => {
@@ -11,15 +10,19 @@ module.exports = (req,res) => {
     const productMp = products.map(p => {
         if(p.id === +id){
             const productsUp = {
+                ...p,
                 name: name.trim(), 
                 price: +price, 
                 discount: +discount, 
                 description: description.trim(), 
                 category: category.trim()
             }
+            return productsUp
 
         }
+        return p
 
     })
-    res.redirect('/productos/detalle')
+    saveData(productMp)
+    res.redirect(`/productos/detalle/${id}`)
     }
