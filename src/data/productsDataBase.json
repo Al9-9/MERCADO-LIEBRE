@@ -75,8 +75,8 @@
       "id": 9,
       "name": "Teclado Apple Magic Inalámbrico",
       "description": "El teclado mágico combina un diseño elegante con una batería recargable incorporada y funciones clave mejoradas. Con un mecanismo de tijera estable debajo de cada tecla, así como un recorrido de teclas optimizado y un perfil bajo, el Teclado Mágico ofrece una experiencia de escritura notablemente cómoda y precisa.",
-      "price": 11399,
-      "discount": 0,
+      "price": 12500,
+      "discount": 10,
       "image": "img-apple-magic-keyboard.jpg",
       "category": "visited"
    },
@@ -142,14 +142,5 @@
       "category": "in-sale",
       "description": "Deja que la música dance cobre vida con EXTRA BASS™ Anima el ambiente con EXTRA BASS™1. Un radiador pasivo trabaja con el parlante monoaural para potenciar los tonos bajos y mejorar los graves, a pesar del tamaño compacto. ",
       "image": "img-parlante-sony.jpg"
-   },
-   {
-      "id": 17,
-      "name": "PC Lenovo",
-      "price": 1000000,
-      "discount": 90,
-      "category": "in-sale",
-      "description": "loplopl",
-      "image": "default-image.png"
    }
 ]
