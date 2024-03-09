@@ -1,7 +1,11 @@
+const { readData } = require("../../data")
 
 
 
 
 module.exports = (req,res) => {
-    res.render()
+    const products = readData()
+    res.render('products/list', {products})
+    
     }
+

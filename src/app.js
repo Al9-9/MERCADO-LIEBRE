@@ -4,10 +4,14 @@ const cookieParser = require('cookie-parser');
 const express = require('express');
 const logger = require('morgan');
 const path = require('path');
-const methodOverride =  require('method-override'); // Pasar poder usar los métodos PUT y DELETE
-
+const methodOverride =  require('method-override');
+ // Pasar poder usar los métodos PUT y DELETE
+ const bodyParser = require('body-parser');
 // ************ express() - (don't touch) ************
 const app = express();
+// Configurar body-parser
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 // ************ Middlewares - (don't touch) ************
 app.use(express.static(path.join(__dirname, '../public')));  // Necesario para los archivos estáticos en el folder /public
@@ -49,7 +53,7 @@ app.use((err, req, res, next) => {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.render('other/error');
 });
 
 // ************ exports app - dont'touch ************

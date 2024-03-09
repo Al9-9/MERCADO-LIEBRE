@@ -3,14 +3,14 @@ const express = require('express');
 const router = express.Router();
 
 // ************ Controller Require ************
-const productsController = require('../controllers/productsController');
+const { list, detail } = require('../controllers/product')
 
 /*** GET ALL PRODUCTS ***/ 
-router.get('/products', productsController.index); 
+router.get('/productos', list); 
 
 
 /*** GET ONE PRODUCT ***/ 
-router.get('/:id/?', productsController.detail); 
+router.get('/detalle/:id', detail); 
 
 
 

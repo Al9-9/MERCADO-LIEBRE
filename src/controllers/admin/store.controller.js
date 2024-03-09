@@ -1,12 +1,23 @@
-const fs = require('fs');
-const path = require('path');
-
-const productsFilePath = path.join(__dirname, '../data/productsDataBase.json');
-const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
-
-const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+const { readData, saveData } = require('../../data')
 
 
 module.exports = (req,res) => {
-    res.render()
+    const {name, price, discount, category, description} = req.body
+    const products = readData();
+
+    const newID = products[products.length - 1].id + 1
+
+    const newProduct = {
+        id: newID,
+        name: name.trim(),
+        price: +price,  
+        discount: +discount,
+        category: category?.trim(),
+        description: description.trim(),
+        image: "default-image.png",
+        
+    };
+    products.push(newProduct);
+    saveData(products)
+    res.redirect(`/productos/detalle/${newID}`); 
     }

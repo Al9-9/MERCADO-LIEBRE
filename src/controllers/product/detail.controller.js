@@ -1,8 +1,13 @@
+const { readData } = require("../../data");
 
+const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 
 
 
 module.exports = (req,res) => {
-    res.render()
+    const {id} = req.params;
+    const products = readData();
+    const productsFind = products.find(p => p.id === +id)
+    res.render('products/detail', {product: productsFind, toThousand})
     }
